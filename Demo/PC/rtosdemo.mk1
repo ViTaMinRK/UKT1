@@ -1,0 +1,310 @@
+!define BLANK ""
+D:\UKT1\Demo\PC\croutine.obj : D:\UKT1\SOURCE\croutine.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\SOURCE\croutine.c -i=C:\WATCOM\h;..\common\include;..\..\source\&
+include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WA&
+TCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu&
+ -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\list.obj : D:\UKT1\source\list.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\source\list.c -i=C:\WATCOM\h;..\common\include;..\..\source\incl&
+ude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCOM&
+_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1 &
+-bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\heap_3.obj : D:\UKT1\SOURCE\PORTABLE\MEMMANG\heap_3.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\SOURCE\PORTABLE\MEMMANG\heap_3.c -i=C:\WATCOM\h;..\common\includ&
+e;..\..\source\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e2&
+5 -za -dOPEN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od &
+-s -d2 -fpc -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\portcomn.obj : D:\UKT1\source\portable\owatcom\16bitdos\comm&
+on\portcomn.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\source\portable\owatcom\16bitdos\common\portcomn.c -i=C:\WATCOM\&
+h;..\common\include;..\..\source\include;..\..\source\portable\owatcom\16bit&
+dos\common -w4 -e25 -za -dOPEN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG&
+_BUILD -j -zq -od -s -d2 -fpc -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\port.obj : D:\UKT1\source\portable\owatcom\16bitdos\pc\port.&
+c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\source\portable\owatcom\16bitdos\pc\port.c -i=C:\WATCOM\h;..\com&
+mon\include;..\..\source\include;..\..\source\portable\owatcom\16bitdos\comm&
+on -w4 -e25 -za -dOPEN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -&
+j -zq -od -s -d2 -fpc -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\queue.obj : D:\UKT1\source\queue.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\source\queue.c -i=C:\WATCOM\h;..\common\include;..\..\source\inc&
+lude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCO&
+M_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1&
+ -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\tasks.obj : D:\UKT1\source\tasks.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\..\source\tasks.c -i=C:\WATCOM\h;..\common\include;..\..\source\inc&
+lude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCO&
+M_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1&
+ -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\blockq.obj : D:\UKT1\Demo\common\full\blockq.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\blockq.c -i=C:\WATCOM\h;..\common\include;..\..\source\&
+include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WA&
+TCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu&
+ -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\comtest.obj : D:\UKT1\Demo\common\full\comtest.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\comtest.c -i=C:\WATCOM\h;..\common\include;..\..\source&
+\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_W&
+ATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -z&
+u -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\death.obj : D:\UKT1\Demo\common\full\death.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\death.c -i=C:\WATCOM\h;..\common\include;..\..\source\i&
+nclude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WAT&
+COM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu &
+-1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\dynamic.obj : D:\UKT1\Demo\COMMON\FULL\dynamic.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\FULL\dynamic.c -i=C:\WATCOM\h;..\common\include;..\..\source&
+\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_W&
+ATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -z&
+u -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\events.obj : D:\UKT1\Demo\COMMON\FULL\events.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\FULL\events.c -i=C:\WATCOM\h;..\common\include;..\..\source\&
+include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WA&
+TCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu&
+ -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\flop.obj : D:\UKT1\Demo\common\full\flop.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\flop.c -i=C:\WATCOM\h;..\common\include;..\..\source\in&
+clude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATC&
+OM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -&
+1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\integer.obj : D:\UKT1\Demo\common\full\integer.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\integer.c -i=C:\WATCOM\h;..\common\include;..\..\source&
+\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_W&
+ATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -z&
+u -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\pollq.obj : D:\UKT1\Demo\common\full\pollq.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\pollq.c -i=C:\WATCOM\h;..\common\include;..\..\source\i&
+nclude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WAT&
+COM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu &
+-1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\print.obj : D:\UKT1\Demo\common\full\print.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\print.c -i=C:\WATCOM\h;..\common\include;..\..\source\i&
+nclude;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WAT&
+COM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu &
+-1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\semtest.obj : D:\UKT1\Demo\common\full\semtest.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\common\full\semtest.c -i=C:\WATCOM\h;..\common\include;..\..\source&
+\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_W&
+ATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -z&
+u -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\AltBlckQ.obj : D:\UKT1\Demo\COMMON\MINIMAL\AltBlckQ.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\AltBlckQ.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\AltBlock.obj : D:\UKT1\Demo\COMMON\MINIMAL\AltBlock.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\AltBlock.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\AltPollQ.obj : D:\UKT1\Demo\COMMON\MINIMAL\AltPollQ.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\AltPollQ.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\AltQTest.obj : D:\UKT1\Demo\COMMON\MINIMAL\AltQTest.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\AltQTest.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\blocktim.obj : D:\UKT1\Demo\COMMON\MINIMAL\blocktim.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\blocktim.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\countsem.obj : D:\UKT1\Demo\COMMON\MINIMAL\countsem.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\countsem.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\crflash.obj : D:\UKT1\Demo\COMMON\MINIMAL\crflash.c .AUTODEP&
+END
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\crflash.c -i=C:\WATCOM\h;..\common\include;..\..\sou&
+rce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPE&
+N_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc&
+ -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\crhook.obj : D:\UKT1\Demo\COMMON\MINIMAL\crhook.c .AUTODEPEN&
+D
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\crhook.c -i=C:\WATCOM\h;..\common\include;..\..\sour&
+ce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN&
+_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc &
+-zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\GenQTest.obj : D:\UKT1\Demo\COMMON\MINIMAL\GenQTest.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\GenQTest.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\QPeek.obj : D:\UKT1\Demo\COMMON\MINIMAL\QPeek.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\QPeek.c -i=C:\WATCOM\h;..\common\include;..\..\sourc&
+e\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_&
+WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -&
+zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\recmutex.obj : D:\UKT1\Demo\COMMON\MINIMAL\recmutex.c .AUTOD&
+EPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc ..\COMMON\MINIMAL\recmutex.c -i=C:\WATCOM\h;..\common\include;..\..\so&
+urce\include;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOP&
+EN_WATCOM_INDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fp&
+c -zu -1 -bt=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\fileio.obj : D:\UKT1\Demo\PC\fileio\fileio.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc fileio\fileio.c -i=C:\WATCOM\h;..\common\include;..\..\source\include;&
+..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCOM_IND&
+USTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1 -bt=&
+dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\main.obj : D:\UKT1\Demo\PC\main.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc main.c -i=C:\WATCOM\h;..\common\include;..\..\source\include;..\..\sou&
+rce\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCOM_INDUSTRIAL_P&
+C_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1 -bt=dos -fo=.&
+obj -ml
+
+D:\UKT1\Demo\PC\partest.obj : D:\UKT1\Demo\PC\partest\partest.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc partest\partest.c -i=C:\WATCOM\h;..\common\include;..\..\source\includ&
+e;..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCOM_I&
+NDUSTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1 -b&
+t=dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\serial.obj : D:\UKT1\Demo\PC\serial\serial.c .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ *wcc serial\serial.c -i=C:\WATCOM\h;..\common\include;..\..\source\include;&
+..\..\source\portable\owatcom\16bitdos\common -w4 -e25 -za -dOPEN_WATCOM_IND&
+USTRIAL_PC_PORT -dUSE_STDIO -dDEBUG_BUILD -j -zq -od -s -d2 -fpc -zu -1 -bt=&
+dos -fo=.obj -ml
+
+D:\UKT1\Demo\PC\rtosdemo.exe : D:\UKT1\Demo\PC\croutine.obj D:\UKT1\Demo\PC\&
+list.obj D:\UKT1\Demo\PC\heap_3.obj D:\UKT1\Demo\PC\portcomn.obj D:\UKT1\Dem&
+o\PC\port.obj D:\UKT1\Demo\PC\queue.obj D:\UKT1\Demo\PC\tasks.obj D:\UKT1\De&
+mo\PC\blockq.obj D:\UKT1\Demo\PC\comtest.obj D:\UKT1\Demo\PC\death.obj D:\UK&
+T1\Demo\PC\dynamic.obj D:\UKT1\Demo\PC\events.obj D:\UKT1\Demo\PC\flop.obj D&
+:\UKT1\Demo\PC\integer.obj D:\UKT1\Demo\PC\pollq.obj D:\UKT1\Demo\PC\print.o&
+bj D:\UKT1\Demo\PC\semtest.obj D:\UKT1\Demo\PC\AltBlckQ.obj D:\UKT1\Demo\PC\&
+AltBlock.obj D:\UKT1\Demo\PC\AltPollQ.obj D:\UKT1\Demo\PC\AltQTest.obj D:\UK&
+T1\Demo\PC\blocktim.obj D:\UKT1\Demo\PC\countsem.obj D:\UKT1\Demo\PC\crflash&
+.obj D:\UKT1\Demo\PC\crhook.obj D:\UKT1\Demo\PC\GenQTest.obj D:\UKT1\Demo\PC&
+\QPeek.obj D:\UKT1\Demo\PC\recmutex.obj D:\UKT1\Demo\PC\fileio.obj D:\UKT1\D&
+emo\PC\main.obj D:\UKT1\Demo\PC\partest.obj D:\UKT1\Demo\PC\serial.obj D:\UK&
+T1\SOURCE\INCLUDE\croutine.h D:\UKT1\SOURCE\INCLUDE\FreeRTOS.h D:\UKT1\sourc&
+e\include\list.h D:\UKT1\source\include\portable.h D:\UKT1\source\include\pr&
+ojdefs.h D:\UKT1\source\include\queue.h D:\UKT1\source\include\semphr.h D:\U&
+KT1\source\include\task.h D:\UKT1\source\portable\owatcom\16bitdos\common\po&
+rtasm.h D:\UKT1\source\portable\owatcom\16bitdos\pc\portmacro.h D:\UKT1\Demo&
+\COMMON\INCLUDE\AltBlckQ.h D:\UKT1\Demo\COMMON\INCLUDE\AltBlock.h D:\UKT1\De&
+mo\COMMON\INCLUDE\AltPollQ.h D:\UKT1\Demo\COMMON\INCLUDE\AltQTest.h D:\UKT1\&
+Demo\common\include\blockq.h D:\UKT1\Demo\COMMON\INCLUDE\blocktim.h D:\UKT1\&
+Demo\common\include\comtest.h D:\UKT1\Demo\COMMON\INCLUDE\countsem.h D:\UKT1&
+\Demo\COMMON\INCLUDE\crhook.h D:\UKT1\Demo\common\include\death.h D:\UKT1\De&
+mo\COMMON\INCLUDE\dynamic.h D:\UKT1\Demo\common\include\fileio.h D:\UKT1\Dem&
+o\common\include\flash.h D:\UKT1\Demo\common\include\flop.h D:\UKT1\Demo\COM&
+MON\INCLUDE\GenQTest.h D:\UKT1\Demo\common\include\partest.h D:\UKT1\Demo\co&
+mmon\include\pollq.h D:\UKT1\Demo\common\include\print.h D:\UKT1\Demo\common&
+\include\semtest.h D:\UKT1\Demo\common\include\serial.h D:\UKT1\Demo\PC\Free&
+RTOSConfig.h .AUTODEPEND
+ @D:
+ cd D:\UKT1\Demo\PC
+ @%write rtosdemo.lk1 FIL croutine.obj,list.obj,heap_3.obj,portcomn.obj,port&
+.obj,queue.obj,tasks.obj,blockq.obj,comtest.obj,death.obj,dynamic.obj,events&
+.obj,flop.obj,integer.obj,pollq.obj,print.obj,semtest.obj,AltBlckQ.obj,AltBl&
+ock.obj,AltPollQ.obj,AltQTest.obj,blocktim.obj,countsem.obj,crflash.obj,crho&
+ok.obj,GenQTest.obj,QPeek.obj,recmutex.obj,fileio.obj,main.obj,partest.obj,s&
+erial.obj
+ @%append rtosdemo.lk1 
+ *wlink name rtosdemo d dwarf d all sys dos op m op maxe=25 op q op symf @rt&
+osdemo.lk1
+
