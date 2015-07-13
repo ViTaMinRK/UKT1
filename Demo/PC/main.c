@@ -105,7 +105,7 @@
 #include "croutine.h"
 #include "partest.h"
 #include "serial.h"
-#include "dos_.h"
+#include "dos.h"
 /* Demo file headers. */
 #include "print.h"
 
