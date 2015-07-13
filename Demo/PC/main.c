@@ -64,7 +64,7 @@
     engineered and independently SIL3 certified version for use in safety and
     mission critical applications that require provable dependability.
 
-    1 tab == 4 spaces!
+  e  1 tab == 4 spaces!
 */
 
 /**
@@ -105,7 +105,7 @@
 #include "croutine.h"
 #include "partest.h"
 #include "serial.h"
-
+#include "dos_.h"
 /* Demo file headers. */
 #include "print.h"
 
